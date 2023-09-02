@@ -1,7 +1,7 @@
 import Account_Book__ClassMade as ABCM
 
 
-acc1 = ABCM.Account(1101, False, 128.66, 'Rocket')
-acc2 = ABCM.Account(1101, False, 128.66, 'Rocket')
-acc3 = ABCM.Account(1101, False, 128.67, 'Rocket')
-print(acc1.id, '\n', hash(acc2()), '\n', acc3())
+acc = ABCM.Account(1001, False, 62.79, "Rocket")
+
+print(acc(), acc.summary(), acc.hash)
+acc.__summary()
